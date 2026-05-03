@@ -6,37 +6,7 @@
 
 ---
 
-## 固件版本说明
 
-### 📶 1. 带WiFi版本 (`IPQ60XX-WIFI`)
-此固件仅给ax5 jdc 使用。自带开源硬件加速！
-
-- **源码**：https://github.com/VIKINGYFY/immortalwrt.git
-- **分支**：main
-- **提交**：6bb76ef
-- **配置**：IPQ60XX-WIFI
-- **平台**：qualcommax
-- **登录地址**：`192.168.1.2`
-- **登录密码**：无
-- **WIFI名称**：`Vipkj-WRT`
-- **WIFI密码**：`12345678`
-- **内核版本**：6.18.26
-- **插件列表**：luci-app-autoreboot, luci-app-cpufreq, luci-app-dae, luci-app-daed, luci-app-ddns-go, luci-app-firewall, luci-app-gecoosac, luci-app-package-manager, luci-app-passwall, luci-app-passwall2, luci-app-sqm, luci-app-ttyd, luci-app-upnp, luci-app-vlmcsd, luci-app-wolplus, luci-app-zerotier, luci-theme-argon
-
-### 🔌 2. 不带WiFi版本 (`IPQ60XX-NOWIFI`)
-此固件仅给ax5 jdc 使用，且无wifi。自带开源硬件加速！
-
-- **源码**：https://github.com/VIKINGYFY/immortalwrt.git
-- **分支**：main
-- **提交**：6bb76ef
-- **配置**：IPQ60XX-NOWIFI
-- **平台**：qualcommax
-- **登录地址**：`192.168.1.2`
-- **登录密码**：无
-- **WIFI名称**：无
-- **WIFI密码**：无
-- **内核版本**：6.18.26
-- **插件列表**：luci-app-autoreboot, luci-app-cpufreq, luci-app-dae, luci-app-daed, luci-app-ddns-go, luci-app-firewall, luci-app-gecoosac, luci-app-package-manager, luci-app-passwall, luci-app-passwall2, luci-app-sqm, luci-app-ttyd, luci-app-upnp, luci-app-vlmcsd, luci-app-wolplus, luci-app-zerotier, luci-theme-argon
 
 ---
 
