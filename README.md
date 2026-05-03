@@ -35,9 +35,9 @@ MEDIATEK系列、QUALCOMMAX系列、ROCKCHIP系列、X86系列。
 ### 第一步：刷入 U-Boot 和 分区表
 所需文件已上传至本仓库 [`u-boot` 目录](https://github.com/lzw981731/OpenWRT-ax5-jdc/tree/main/u-boot) 中。
 1. 按照相关教程刷入大雕的 `u-boot.bin`。
-2. 在大雕的后台更新适配本固件的 u-boot（使用本仓库提供的 `u-boot.bin` 文件）。
+2. 在大雕的后台更新适配本固件的 u-boot（使用本仓库提供的 `u-boot.bin` 文件：[点击下载](https://github.com/lzw981731/OpenWRT-ax5-jdc/raw/main/u-boot/u-boot.bin)）。
 3. 断电按住 reset 按键，进入 uboot 界面：[http://192.168.1.1/img.html](http://192.168.1.1/img.html)
-4. 刷入 AX5 JDC 版的分区表文件：`gpt_ax5_jdc_HLOS_12M_ROOTFS_1G.bin`。
+4. 刷入 AX5 JDC 版的分区表文件：`gpt_ax5_jdc_HLOS_12M_ROOTFS_1G.bin`（[点击下载](https://github.com/lzw981731/OpenWRT-ax5-jdc/raw/main/u-boot/gpt_ax5_jdc_HLOS_12M_ROOTFS_1G.bin)）。
 
 ### 第二步：刷入固件
 1. 刷完分区表后，断电按住 reset 按键再次进入 uboot，访问：[http://192.168.1.1/big.html](http://192.168.1.1/big.html)
