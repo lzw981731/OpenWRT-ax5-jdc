@@ -258,11 +258,9 @@ jobs:
           tag_name: ${{env.CI_NAME}}-${{env.WRT_CONFIG}}_${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
-            这是个平台固件包，内含多个设备！
-            请注意选择你需要的设备固件！
-            不要问，刷就完事了！
+            ${{ contains(env.WRT_CONFIG, 'NOWIFI') && '此固件仅给ax5 jdc 使用，且无wifi' || '此固件仅给ax5 jdc 使用' }}
 
-            全系带开源硬件加速，别问了！
+            自带开源硬件加速！
 
             源码：${{env.WRT_REPO}}
             分支：${{env.WRT_BRANCH}}
@@ -274,8 +272,8 @@ jobs:
             登录地址：${{env.WRT_IP}}
             登录密码：${{env.WRT_PW}}
 
-            WIFI名称：${{env.WRT_SSID}}
-            WIFI密码：${{env.WRT_WORD}}
+            WIFI名称：${{ contains(env.WRT_CONFIG, 'NOWIFI') && '无' || env.WRT_SSID }}
+            WIFI密码：${{ contains(env.WRT_CONFIG, 'NOWIFI') && '无' || env.WRT_WORD }}
 
             内核版本：${{env.WRT_KVER}}
             插件列表：${{env.WRT_LIST}}
