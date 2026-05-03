@@ -107,3 +107,11 @@ if [ -d *"luci-app-netspeedtest"* ]; then
 
 	cd $PKG_PATH && echo "netspeedtest has been fixed!"
 fi
+
+#修复 mac80211 ath11k 编译错误 (上游 patch 格式损坏)
+MAC80211_PATCH="./kernel/mac80211/patches/ath11k/990-ath11k-clamp-reg-rule-bandwidth.patch"
+if [ -f "$MAC80211_PATCH" ]; then
+	echo " "
+	rm -rf $MAC80211_PATCH
+	cd $PKG_PATH && echo "mac80211 broken patch has been removed!"
+fi

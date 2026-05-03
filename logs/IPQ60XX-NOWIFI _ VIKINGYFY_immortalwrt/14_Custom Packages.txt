@@ -1,0 +1,178 @@
+﻿2026-05-03T06:02:08.0344665Z ##[group]Run cd ./wrt/package/
+2026-05-03T06:02:08.0345170Z [36;1mcd ./wrt/package/[0m
+2026-05-03T06:02:08.0345534Z [36;1m[0m
+2026-05-03T06:02:08.0345886Z [36;1m$GITHUB_WORKSPACE/Scripts/Packages.sh[0m
+2026-05-03T06:02:08.0346444Z [36;1m$GITHUB_WORKSPACE/Scripts/Handles.sh[0m
+2026-05-03T06:02:08.0369294Z shell: /usr/bin/bash -e {0}
+2026-05-03T06:02:08.0369530Z env:
+2026-05-03T06:02:08.0369885Z   GITHUB_TOKEN: ***
+2026-05-03T06:02:08.0370099Z   WRT_CONFIG: IPQ60XX-NOWIFI
+2026-05-03T06:02:08.0370314Z   WRT_THEME: argon
+2026-05-03T06:02:08.0370492Z   WRT_NAME: Vipkj-WRT
+2026-05-03T06:02:08.0370673Z   WRT_SSID: Vipkj-WRT
+2026-05-03T06:02:08.0370851Z   WRT_WORD: 12345678
+2026-05-03T06:02:08.0371020Z   WRT_IP: 192.168.1.2
+2026-05-03T06:02:08.0371195Z   WRT_PW: 无
+2026-05-03T06:02:08.0371445Z   WRT_REPO: https://github.com/VIKINGYFY/immortalwrt.git
+2026-05-03T06:02:08.0371742Z   WRT_BRANCH: main
+2026-05-03T06:02:08.0372130Z   WRT_PACKAGE: 
+2026-05-03T06:02:08.0372315Z   WRT_TEST: false
+2026-05-03T06:02:08.0372513Z   WRT_DIR: wrt
+2026-05-03T06:02:08.0372688Z   CI_NAME: QCA-6.12-VIKINGYFY
+2026-05-03T06:02:08.0372899Z   WRT_ARCH: qualcommax_ipq60xx
+2026-05-03T06:02:08.0373108Z   GO_INSTALLED: false
+2026-05-03T06:02:08.0373283Z   GOTOOLCHAIN: local
+2026-05-03T06:02:08.0373469Z   WRT_DATE: 26.05.03-14.00.56
+2026-05-03T06:02:08.0373666Z   WRT_MARK: lzw981731
+2026-05-03T06:02:08.0373837Z   WRT_INFO: 
+2026-05-03T06:02:08.0374002Z   WRT_TARGET: qualcommax
+2026-05-03T06:02:08.0374202Z   WRT_KVER: none
+2026-05-03T06:02:08.0374366Z   WRT_LIST: none
+2026-05-03T06:02:08.0374522Z   WRT_CI: 
+2026-05-03T06:02:08.0374678Z   WRT_HASH: 407e2b9
+2026-05-03T06:02:08.0374845Z ##[endgroup]
+2026-05-03T06:02:08.0431779Z  
+2026-05-03T06:02:08.0432475Z Search directory: argon
+2026-05-03T06:02:08.0757655Z Delete directory: ../feeds/luci/themes/luci-theme-argon
+2026-05-03T06:02:08.0776312Z Delete directory: ../feeds/luci/applications/luci-app-argon-config
+2026-05-03T06:02:08.0787704Z Delete directory: ../feeds/packages/lang/node/node-argon2
+2026-05-03T06:02:08.0800154Z Cloning into 'luci-theme-argon'...
+2026-05-03T06:02:08.4742862Z  
+2026-05-03T06:02:08.4743235Z Search directory: aurora
+2026-05-03T06:02:08.5039275Z Not fonud directory: aurora
+2026-05-03T06:02:08.5051857Z Cloning into 'luci-theme-aurora'...
+2026-05-03T06:02:08.8680829Z  
+2026-05-03T06:02:08.8681218Z Search directory: aurora-config
+2026-05-03T06:02:08.8980172Z Not fonud directory: aurora-config
+2026-05-03T06:02:08.8994263Z Cloning into 'luci-app-aurora-config'...
+2026-05-03T06:02:09.1826934Z  
+2026-05-03T06:02:09.1827548Z Search directory: kucat
+2026-05-03T06:02:09.2119182Z Not fonud directory: kucat
+2026-05-03T06:02:09.2131735Z Cloning into 'luci-theme-kucat'...
+2026-05-03T06:02:09.6762513Z  
+2026-05-03T06:02:09.6763135Z Search directory: kucat-config
+2026-05-03T06:02:09.7056579Z Not fonud directory: kucat-config
+2026-05-03T06:02:09.7068235Z Cloning into 'luci-app-kucat-config'...
+2026-05-03T06:02:10.1666208Z  
+2026-05-03T06:02:10.1666756Z Search directory: homeproxy
+2026-05-03T06:02:10.1986749Z Delete directory: ../feeds/luci/applications/luci-app-homeproxy
+2026-05-03T06:02:10.1998489Z Cloning into 'homeproxy'...
+2026-05-03T06:02:10.6104450Z  
+2026-05-03T06:02:10.6104866Z Search directory: momo
+2026-05-03T06:02:10.6397524Z Not fonud directory: momo
+2026-05-03T06:02:10.6409736Z Cloning into 'OpenWrt-momo'...
+2026-05-03T06:02:10.8874638Z  
+2026-05-03T06:02:10.8875165Z Search directory: nikki
+2026-05-03T06:02:10.9167293Z Not fonud directory: nikki
+2026-05-03T06:02:10.9180218Z Cloning into 'OpenWrt-nikki'...
+2026-05-03T06:02:11.4536975Z  
+2026-05-03T06:02:11.4537577Z Search directory: openclash
+2026-05-03T06:02:11.4920701Z Delete directory: ../feeds/luci/applications/luci-app-openclash
+2026-05-03T06:02:11.4933008Z Cloning into 'OpenClash'...
+2026-05-03T06:02:12.1712075Z  
+2026-05-03T06:02:12.1712776Z Search directory: passwall
+2026-05-03T06:02:12.2060672Z Delete directory: ../feeds/luci/applications/luci-app-passwall
+2026-05-03T06:02:12.2072928Z Cloning into 'openwrt-passwall'...
+2026-05-03T06:02:12.5959554Z  
+2026-05-03T06:02:12.5960107Z Search directory: passwall2
+2026-05-03T06:02:12.6251217Z Not fonud directory: passwall2
+2026-05-03T06:02:12.6263212Z Cloning into 'openwrt-passwall2'...
+2026-05-03T06:02:12.9885018Z  
+2026-05-03T06:02:12.9885604Z Search directory: luci-app-tailscale
+2026-05-03T06:02:13.0196775Z Delete directory: ../feeds/luci/applications/luci-app-tailscale-community
+2026-05-03T06:02:13.0208772Z Cloning into 'luci-app-tailscale'...
+2026-05-03T06:02:13.2292147Z  
+2026-05-03T06:02:13.2292792Z Search directory: ddns-go
+2026-05-03T06:02:13.2601526Z Delete directory: ../feeds/luci/applications/luci-app-ddns-go
+2026-05-03T06:02:13.2613360Z Delete directory: ../feeds/packages/net/ddns-go
+2026-05-03T06:02:13.2625230Z Cloning into 'luci-app-ddns-go'...
+2026-05-03T06:02:13.5353920Z  
+2026-05-03T06:02:13.5354290Z Search directory: diskman
+2026-05-03T06:02:13.5667441Z Delete directory: ../feeds/luci/applications/luci-app-diskman
+2026-05-03T06:02:13.5679296Z Cloning into 'luci-app-diskman'...
+2026-05-03T06:02:13.8705265Z  
+2026-05-03T06:02:13.8705540Z Search directory: easytier
+2026-05-03T06:02:13.8996748Z Not fonud directory: easytier
+2026-05-03T06:02:13.9009075Z Cloning into 'luci-app-easytier'...
+2026-05-03T06:02:14.2018472Z  
+2026-05-03T06:02:14.2018949Z Search directory: fancontrol
+2026-05-03T06:02:14.2308005Z Not fonud directory: fancontrol
+2026-05-03T06:02:14.2320019Z Cloning into 'luci-app-fancontrol'...
+2026-05-03T06:02:14.4401618Z  
+2026-05-03T06:02:14.4402476Z Search directory: gecoosac
+2026-05-03T06:02:14.4691696Z Not fonud directory: gecoosac
+2026-05-03T06:02:14.4703643Z Cloning into 'openwrt-gecoosac'...
+2026-05-03T06:02:14.6871010Z  
+2026-05-03T06:02:14.6871409Z Search directory: mosdns
+2026-05-03T06:02:14.7174714Z Delete directory: ../feeds/packages/net/mosdns
+2026-05-03T06:02:14.7175364Z Search directory: v2dat
+2026-05-03T06:02:14.7451450Z Not fonud directory: v2dat
+2026-05-03T06:02:14.7463565Z Cloning into 'luci-app-mosdns'...
+2026-05-03T06:02:14.9934687Z  
+2026-05-03T06:02:14.9935149Z Search directory: openlist2
+2026-05-03T06:02:15.0224139Z Not fonud directory: openlist2
+2026-05-03T06:02:15.0236551Z Cloning into 'luci-app-openlist2'...
+2026-05-03T06:02:15.2871900Z  
+2026-05-03T06:02:15.2872517Z Search directory: partexp
+2026-05-03T06:02:15.3162944Z Not fonud directory: partexp
+2026-05-03T06:02:15.3175137Z Cloning into 'luci-app-partexp'...
+2026-05-03T06:02:15.8235059Z  
+2026-05-03T06:02:15.8235624Z Search directory: qbittorrent
+2026-05-03T06:02:15.8544695Z Delete directory: ../feeds/luci/applications/luci-app-qbittorrent
+2026-05-03T06:02:15.8558121Z Delete directory: ../feeds/packages/net/qBittorrent-Enhanced-Edition
+2026-05-03T06:02:15.8558697Z Search directory: qt6base
+2026-05-03T06:02:15.8845522Z Delete directory: ../feeds/packages/libs/qt6base
+2026-05-03T06:02:15.8846527Z Search directory: qt6tools
+2026-05-03T06:02:15.9129192Z Delete directory: ../feeds/packages/utils/qt6tools
+2026-05-03T06:02:15.9129759Z Search directory: rblibtorrent
+2026-05-03T06:02:15.9403043Z Not fonud directory: rblibtorrent
+2026-05-03T06:02:15.9415539Z Cloning into 'luci-app-qbittorrent'...
+2026-05-03T06:02:16.1747231Z  
+2026-05-03T06:02:16.1747557Z Search directory: qmodem
+2026-05-03T06:02:16.2033043Z Not fonud directory: qmodem
+2026-05-03T06:02:16.2045447Z Cloning into 'QModem'...
+2026-05-03T06:02:17.0010943Z  
+2026-05-03T06:02:17.0011393Z Search directory: quickfile
+2026-05-03T06:02:17.0301357Z Not fonud directory: quickfile
+2026-05-03T06:02:17.0313967Z Cloning into 'luci-app-quickfile'...
+2026-05-03T06:02:17.2196240Z  
+2026-05-03T06:02:17.2196591Z Search directory: viking
+2026-05-03T06:02:17.2485645Z Not fonud directory: viking
+2026-05-03T06:02:17.2486145Z Search directory: luci-app-timewol
+2026-05-03T06:02:17.2804307Z Delete directory: ../feeds/luci/applications/luci-app-timewol
+2026-05-03T06:02:17.2805090Z Search directory: luci-app-wolplus
+2026-05-03T06:02:17.3077984Z Not fonud directory: luci-app-wolplus
+2026-05-03T06:02:17.3090072Z Cloning into 'packages'...
+2026-05-03T06:02:17.5444360Z  
+2026-05-03T06:02:17.5445016Z Search directory: vnt
+2026-05-03T06:02:17.5733556Z Not fonud directory: vnt
+2026-05-03T06:02:17.5746124Z Cloning into 'luci-app-vnt'...
+2026-05-03T06:02:17.8905202Z  
+2026-05-03T06:02:17.8905685Z Search directory: luci-app-daed
+2026-05-03T06:02:17.9213540Z Delete directory: ../feeds/luci/applications/luci-app-daed
+2026-05-03T06:02:17.9225634Z Cloning into 'luci-app-daed'...
+2026-05-03T06:02:18.1824996Z  
+2026-05-03T06:02:18.1825412Z Search directory: luci-app-pushbot
+2026-05-03T06:02:18.2116905Z Not fonud directory: luci-app-pushbot
+2026-05-03T06:02:18.2129575Z Cloning into 'luci-app-pushbot'...
+2026-05-03T06:02:18.4284078Z  
+2026-05-03T06:02:18.4284522Z Search directory: luci-app-lucky
+2026-05-03T06:02:18.4575801Z Not fonud directory: luci-app-lucky
+2026-05-03T06:02:18.4588003Z Cloning into 'luci-app-lucky'...
+2026-05-03T06:02:18.8376193Z  
+2026-05-03T06:02:19.4645258Z 202605022307
+2026-05-03T06:02:19.5068547Z homeproxy date has been updated!
+2026-05-03T06:02:19.5069099Z  
+2026-05-03T06:02:19.5086037Z theme-argon has been fixed!
+2026-05-03T06:02:19.5086589Z  
+2026-05-03T06:02:19.5120420Z theme-aurora has been fixed!
+2026-05-03T06:02:19.5120820Z  
+2026-05-03T06:02:19.5135810Z qca-nss-drv has been fixed!
+2026-05-03T06:02:19.5136207Z  
+2026-05-03T06:02:19.5151156Z qca-nss-pbuf has been fixed!
+2026-05-03T06:02:19.5387070Z  
+2026-05-03T06:02:19.5402059Z tailscale has been fixed!
+2026-05-03T06:02:19.5624045Z  
+2026-05-03T06:02:19.5638917Z rust has been fixed!
+2026-05-03T06:02:19.5639298Z  
+2026-05-03T06:02:19.5654208Z diskman has been fixed!

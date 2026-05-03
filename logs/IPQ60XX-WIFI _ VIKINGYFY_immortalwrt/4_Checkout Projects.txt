@@ -1,0 +1,99 @@
+﻿2026-05-03T05:56:00.6478205Z ##[group]Run actions/checkout@main
+2026-05-03T05:56:00.6478489Z with:
+2026-05-03T05:56:00.6478689Z   repository: lzw981731/OpenWRT-CI-main
+2026-05-03T05:56:00.6479062Z   token: ***
+2026-05-03T05:56:00.6479235Z   ssh-strict: true
+2026-05-03T05:56:00.6479413Z   ssh-user: git
+2026-05-03T05:56:00.6479594Z   persist-credentials: true
+2026-05-03T05:56:00.6479803Z   clean: true
+2026-05-03T05:56:00.6479986Z   sparse-checkout-cone-mode: true
+2026-05-03T05:56:00.6480211Z   fetch-depth: 1
+2026-05-03T05:56:00.6480378Z   fetch-tags: false
+2026-05-03T05:56:00.6480557Z   show-progress: true
+2026-05-03T05:56:00.6480764Z   lfs: false
+2026-05-03T05:56:00.6480922Z   submodules: false
+2026-05-03T05:56:00.6481099Z   set-safe-directory: true
+2026-05-03T05:56:00.6481297Z env:
+2026-05-03T05:56:00.6481542Z   GITHUB_TOKEN: ***
+2026-05-03T05:56:00.6481727Z   WRT_CONFIG: IPQ60XX-WIFI
+2026-05-03T05:56:00.6481925Z   WRT_THEME: argon
+2026-05-03T05:56:00.6482096Z   WRT_NAME: Vipkj-WRT
+2026-05-03T05:56:00.6482283Z   WRT_SSID: Vipkj-WRT
+2026-05-03T05:56:00.6482485Z   WRT_WORD: 12345678
+2026-05-03T05:56:00.6482658Z   WRT_IP: 192.168.1.2
+2026-05-03T05:56:00.6482823Z   WRT_PW: 无
+2026-05-03T05:56:00.6483053Z   WRT_REPO: https://github.com/VIKINGYFY/immortalwrt.git
+2026-05-03T05:56:00.6483343Z   WRT_BRANCH: main
+2026-05-03T05:56:00.6483520Z   WRT_PACKAGE: 
+2026-05-03T05:56:00.6483680Z   WRT_TEST: false
+2026-05-03T05:56:00.6483845Z   WRT_DIR: wrt
+2026-05-03T05:56:00.6484016Z   CI_NAME: QCA-6.12-VIKINGYFY
+2026-05-03T05:56:00.6484208Z   WRT_ARCH: 
+2026-05-03T05:56:00.6484366Z ##[endgroup]
+2026-05-03T05:56:00.7417454Z Syncing repository: lzw981731/OpenWRT-CI-main
+2026-05-03T05:56:00.7418807Z ##[group]Getting Git version info
+2026-05-03T05:56:00.7419215Z Working directory is '/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main'
+2026-05-03T05:56:00.7419759Z [command]/usr/bin/git version
+2026-05-03T05:56:00.7457543Z git version 2.53.0
+2026-05-03T05:56:00.7481526Z ##[endgroup]
+2026-05-03T05:56:00.7496948Z Temporarily overriding HOME='/home/runner/work/_temp/fca12c73-f5af-4d16-a799-769c38012781' before making global git config changes
+2026-05-03T05:56:00.7498261Z Adding repository directory to the temporary git global config as a safe directory
+2026-05-03T05:56:00.7504393Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main
+2026-05-03T05:56:00.7540706Z Deleting the contents of '/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main'
+2026-05-03T05:56:00.7552101Z ##[group]Initializing the repository
+2026-05-03T05:56:00.7556630Z [command]/usr/bin/git init /home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main
+2026-05-03T05:56:00.7628445Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-05-03T05:56:00.7629675Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-05-03T05:56:00.7630833Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-05-03T05:56:00.7631913Z hint: call:
+2026-05-03T05:56:00.7632490Z hint:
+2026-05-03T05:56:00.7632915Z hint: 	git config --global init.defaultBranch <name>
+2026-05-03T05:56:00.7633216Z hint:
+2026-05-03T05:56:00.7633668Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-05-03T05:56:00.7634776Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-05-03T05:56:00.7635249Z hint:
+2026-05-03T05:56:00.7635426Z hint: 	git branch -m <name>
+2026-05-03T05:56:00.7635796Z hint:
+2026-05-03T05:56:00.7636304Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-05-03T05:56:00.7637262Z Initialized empty Git repository in /home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main/.git/
+2026-05-03T05:56:00.7641483Z [command]/usr/bin/git remote add origin https://github.com/lzw981731/OpenWRT-CI-main
+2026-05-03T05:56:00.7672386Z ##[endgroup]
+2026-05-03T05:56:00.7673008Z ##[group]Disabling automatic garbage collection
+2026-05-03T05:56:00.7678165Z [command]/usr/bin/git config --local gc.auto 0
+2026-05-03T05:56:00.7706938Z ##[endgroup]
+2026-05-03T05:56:00.7707597Z ##[group]Setting up auth
+2026-05-03T05:56:00.7708593Z Removing SSH command configuration
+2026-05-03T05:56:00.7715033Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-05-03T05:56:00.7745912Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-05-03T05:56:00.8031896Z Removing HTTP extra header
+2026-05-03T05:56:00.8039151Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-05-03T05:56:00.8073370Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-05-03T05:56:00.8293040Z Removing includeIf entries pointing to credentials config files
+2026-05-03T05:56:00.8300790Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-05-03T05:56:00.8332801Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-05-03T05:56:00.8559976Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-207db04e-70c4-4ea8-bd2c-b6e094484ab9.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-05-03T05:56:00.8599378Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main/.git.path /home/runner/work/_temp/git-credentials-207db04e-70c4-4ea8-bd2c-b6e094484ab9.config
+2026-05-03T05:56:00.8630278Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-207db04e-70c4-4ea8-bd2c-b6e094484ab9.config
+2026-05-03T05:56:00.8661351Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-207db04e-70c4-4ea8-bd2c-b6e094484ab9.config
+2026-05-03T05:56:00.8693263Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-207db04e-70c4-4ea8-bd2c-b6e094484ab9.config
+2026-05-03T05:56:00.8719048Z ##[endgroup]
+2026-05-03T05:56:00.8728037Z ##[group]Fetching the repository
+2026-05-03T05:56:00.8728814Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +08c557959660bdcc5c02f5a31c276a4b4299741f:refs/remotes/origin/main
+2026-05-03T05:56:01.1102337Z From https://github.com/lzw981731/OpenWRT-CI-main
+2026-05-03T05:56:01.1103341Z  * [new ref]         08c557959660bdcc5c02f5a31c276a4b4299741f -> origin/main
+2026-05-03T05:56:01.1141630Z [command]/usr/bin/git branch --list --remote origin/main
+2026-05-03T05:56:01.1170157Z   origin/main
+2026-05-03T05:56:01.1179842Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+2026-05-03T05:56:01.1202473Z 08c557959660bdcc5c02f5a31c276a4b4299741f
+2026-05-03T05:56:01.1206542Z ##[endgroup]
+2026-05-03T05:56:01.1206909Z ##[group]Determining the checkout info
+2026-05-03T05:56:01.1209047Z ##[endgroup]
+2026-05-03T05:56:01.1214205Z [command]/usr/bin/git sparse-checkout disable
+2026-05-03T05:56:01.1532890Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-05-03T05:56:01.1580445Z ##[group]Checking out the ref
+2026-05-03T05:56:01.1580920Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-05-03T05:56:01.1667856Z Switched to a new branch 'main'
+2026-05-03T05:56:01.1673344Z branch 'main' set up to track 'origin/main'.
+2026-05-03T05:56:01.1681636Z ##[endgroup]
+2026-05-03T05:56:01.1726827Z [command]/usr/bin/git log -1 --format=%H
+2026-05-03T05:56:01.1754656Z 08c557959660bdcc5c02f5a31c276a4b4299741f

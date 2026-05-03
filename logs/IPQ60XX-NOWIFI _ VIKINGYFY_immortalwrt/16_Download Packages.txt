@@ -1,0 +1,328 @@
+﻿2026-05-03T06:03:01.0450485Z ##[group]Run cd ./wrt/
+2026-05-03T06:03:01.0450741Z [36;1mcd ./wrt/[0m
+2026-05-03T06:03:01.0450922Z [36;1m[0m
+2026-05-03T06:03:01.0451093Z [36;1mmake download -j$(nproc)[0m
+2026-05-03T06:03:01.0471112Z shell: /usr/bin/bash -e {0}
+2026-05-03T06:03:01.0471338Z env:
+2026-05-03T06:03:01.0471692Z   GITHUB_TOKEN: ***
+2026-05-03T06:03:01.0472138Z   WRT_CONFIG: IPQ60XX-NOWIFI
+2026-05-03T06:03:01.0472391Z   WRT_THEME: argon
+2026-05-03T06:03:01.0472576Z   WRT_NAME: Vipkj-WRT
+2026-05-03T06:03:01.0472756Z   WRT_SSID: Vipkj-WRT
+2026-05-03T06:03:01.0472925Z   WRT_WORD: 12345678
+2026-05-03T06:03:01.0473093Z   WRT_IP: 192.168.1.2
+2026-05-03T06:03:01.0473257Z   WRT_PW: 无
+2026-05-03T06:03:01.0473490Z   WRT_REPO: https://github.com/VIKINGYFY/immortalwrt.git
+2026-05-03T06:03:01.0473777Z   WRT_BRANCH: main
+2026-05-03T06:03:01.0473947Z   WRT_PACKAGE: 
+2026-05-03T06:03:01.0474110Z   WRT_TEST: false
+2026-05-03T06:03:01.0474274Z   WRT_DIR: wrt
+2026-05-03T06:03:01.0474439Z   CI_NAME: QCA-6.12-VIKINGYFY
+2026-05-03T06:03:01.0474680Z   WRT_ARCH: qualcommax_ipq60xx
+2026-05-03T06:03:01.0474890Z   GO_INSTALLED: false
+2026-05-03T06:03:01.0475065Z   GOTOOLCHAIN: local
+2026-05-03T06:03:01.0475430Z   WRT_DATE: 26.05.03-14.00.56
+2026-05-03T06:03:01.0475620Z   WRT_MARK: lzw981731
+2026-05-03T06:03:01.0475790Z   WRT_INFO: 
+2026-05-03T06:03:01.0475955Z   WRT_TARGET: qualcommax
+2026-05-03T06:03:01.0476135Z   WRT_KVER: none
+2026-05-03T06:03:01.0476297Z   WRT_LIST: none
+2026-05-03T06:03:01.0476447Z   WRT_CI: 
+2026-05-03T06:03:01.0476601Z   WRT_HASH: 407e2b9
+2026-05-03T06:03:01.0476767Z ##[endgroup]
+2026-05-03T06:03:06.8047972Z WARNING: Makefile 'package/luci-app-daed/daed/Makefile' has a dependency on 'vmlinux-btf', which does not exist
+2026-05-03T06:03:06.8342499Z WARNING: Makefile 'package/feeds/luci/luci-app-cd8021x/Makefile' has a dependency on 'wpad', which does not exist
+2026-05-03T06:03:06.8527975Z WARNING: Makefile 'package/kernel/mac80211/Makefile' has a dependency on 'hostapd-common', which does not exist
+2026-05-03T06:03:06.8597769Z WARNING: Makefile 'package/feeds/packages/onionshare-cli/Makefile' has a dependency on 'python3-pysocks', which does not exist
+2026-05-03T06:03:06.8599111Z WARNING: Makefile 'package/feeds/packages/onionshare-cli/Makefile' has a dependency on 'python3-unidecode', which does not exist
+2026-05-03T06:03:06.8660080Z WARNING: Makefile 'package/feeds/packages/prometheus-node-exporter-lua/Makefile' has a dependency on 'hostapd-utils', which does not exist
+2026-05-03T06:03:06.8718216Z WARNING: Makefile 'package/QModem/application/qmodem/Makefile' has a dependency on 'kmod-mhi-wwan', which does not exist
+2026-05-03T06:03:06.8719405Z WARNING: Makefile 'package/QModem/application/qmodem/Makefile' has a dependency on 'quectel-CM-5G', which does not exist
+2026-05-03T06:03:14.1969550Z WARNING: Makefile 'package/luci-app-daed/daed/Makefile' has a dependency on 'vmlinux-btf', which does not exist
+2026-05-03T06:03:14.2275582Z WARNING: Makefile 'package/feeds/luci/luci-app-cd8021x/Makefile' has a dependency on 'wpad', which does not exist
+2026-05-03T06:03:14.2465607Z WARNING: Makefile 'package/kernel/mac80211/Makefile' has a dependency on 'hostapd-common', which does not exist
+2026-05-03T06:03:14.2536795Z WARNING: Makefile 'package/feeds/packages/onionshare-cli/Makefile' has a dependency on 'python3-pysocks', which does not exist
+2026-05-03T06:03:14.2538920Z WARNING: Makefile 'package/feeds/packages/onionshare-cli/Makefile' has a dependency on 'python3-unidecode', which does not exist
+2026-05-03T06:03:14.2600843Z WARNING: Makefile 'package/feeds/packages/prometheus-node-exporter-lua/Makefile' has a dependency on 'hostapd-utils', which does not exist
+2026-05-03T06:03:14.2659234Z WARNING: Makefile 'package/QModem/application/qmodem/Makefile' has a dependency on 'kmod-mhi-wwan', which does not exist
+2026-05-03T06:03:14.2661094Z WARNING: Makefile 'package/QModem/application/qmodem/Makefile' has a dependency on 'quectel-CM-5G', which does not exist
+2026-05-03T06:03:15.7693069Z make[2]: Entering directory '/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main/wrt/scripts/config'
+2026-05-03T06:03:15.7694097Z make[2]: 'conf' is up to date.
+2026-05-03T06:03:15.7694872Z make[2]: Leaving directory '/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main/wrt/scripts/config'
+2026-05-03T06:03:18.9814808Z time: target/linux/prereq#0.12#0.06#0.17
+2026-05-03T06:03:19.7744083Z  make[1] tools/flock/compile
+2026-05-03T06:03:22.0541767Z  make[2] -C tools/flock compile
+2026-05-03T06:03:28.0696357Z WARNING: Makefile 'package/luci-app-daed/daed/Makefile' has a dependency on 'vmlinux-btf', which does not exist
+2026-05-03T06:03:28.1000894Z WARNING: Makefile 'package/feeds/luci/luci-app-cd8021x/Makefile' has a dependency on 'wpad', which does not exist
+2026-05-03T06:03:28.1194433Z WARNING: Makefile 'package/kernel/mac80211/Makefile' has a dependency on 'hostapd-common', which does not exist
+2026-05-03T06:03:28.1265371Z WARNING: Makefile 'package/feeds/packages/onionshare-cli/Makefile' has a dependency on 'python3-pysocks', which does not exist
+2026-05-03T06:03:28.1267408Z WARNING: Makefile 'package/feeds/packages/onionshare-cli/Makefile' has a dependency on 'python3-unidecode', which does not exist
+2026-05-03T06:03:28.1329179Z WARNING: Makefile 'package/feeds/packages/prometheus-node-exporter-lua/Makefile' has a dependency on 'hostapd-utils', which does not exist
+2026-05-03T06:03:28.1387997Z WARNING: Makefile 'package/QModem/application/qmodem/Makefile' has a dependency on 'kmod-mhi-wwan', which does not exist
+2026-05-03T06:03:28.1389828Z WARNING: Makefile 'package/QModem/application/qmodem/Makefile' has a dependency on 'quectel-CM-5G', which does not exist
+2026-05-03T06:03:29.6310857Z make[2]: Entering directory '/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main/wrt/scripts/config'
+2026-05-03T06:03:29.6311513Z make[2]: 'conf' is up to date.
+2026-05-03T06:03:29.6312305Z make[2]: Leaving directory '/home/runner/work/OpenWRT-CI-main/OpenWRT-CI-main/wrt/scripts/config'
+2026-05-03T06:03:31.2465132Z  make[1] tools/zstd/compile
+2026-05-03T06:03:33.5345384Z  make[2] -C tools/libdeflate compile
+2026-05-03T06:03:37.8464786Z  make[2] -C tools/zstd compile
+2026-05-03T06:04:06.1444862Z  make[1] tools/download
+2026-05-03T06:04:08.4123741Z  make[2] -C tools/autoconf download
+2026-05-03T06:04:08.4124720Z  make[2] -C tools/autoconf-archive download
+2026-05-03T06:04:08.4131133Z  make[2] -C tools/automake download
+2026-05-03T06:04:08.4153110Z  make[2] -C tools/bc download
+2026-05-03T06:04:09.2064665Z  make[2] -C tools/bison download
+2026-05-03T06:04:09.2472344Z  make[2] -C tools/cmake download
+2026-05-03T06:04:09.2838086Z  make[2] -C tools/cpio download
+2026-05-03T06:04:09.3276155Z  make[2] -C tools/dosfstools download
+2026-05-03T06:04:09.6257797Z  make[2] -C tools/e2fsprogs download
+2026-05-03T06:04:09.6697441Z  make[2] -C tools/elfutils download
+2026-05-03T06:04:09.6732901Z  make[2] -C tools/erofs-utils download
+2026-05-03T06:04:09.7973151Z  make[2] -C tools/expat download
+2026-05-03T06:04:10.1499536Z  make[2] -C tools/fakeroot download
+2026-05-03T06:04:10.5592377Z  make[2] -C tools/findutils download
+2026-05-03T06:04:10.5709612Z  make[2] -C tools/firmware-utils download
+2026-05-03T06:04:10.9064916Z  make[2] -C tools/flex download
+2026-05-03T06:04:11.1442707Z  make[2] -C tools/gengetopt download
+2026-05-03T06:04:11.4159375Z  make[2] -C tools/gnulib download
+2026-05-03T06:04:12.3369136Z  make[2] -C tools/libressl download
+2026-05-03T06:04:12.3871699Z  make[2] -C tools/libtool download
+2026-05-03T06:04:12.7511696Z  make[2] -C tools/lzma download
+2026-05-03T06:04:13.5461592Z  make[2] -C tools/m4 download
+2026-05-03T06:04:13.8998222Z  make[2] -C tools/make-ext4fs download
+2026-05-03T06:04:14.5099427Z  make[2] -C tools/meson download
+2026-05-03T06:04:14.5468044Z  make[2] -C tools/missing-macros download
+2026-05-03T06:04:14.6227155Z  make[2] -C tools/mkimage download
+2026-05-03T06:04:14.8568425Z  make[2] -C tools/mklibs download
+2026-05-03T06:04:15.0486001Z  make[2] -C tools/mtd-utils download
+2026-05-03T06:04:16.6531675Z  make[2] -C tools/mtools download
+2026-05-03T06:04:16.9325244Z  make[2] -C tools/ninja download
+2026-05-03T06:04:17.2313751Z  make[2] -C tools/padjffs2 download
+2026-05-03T06:04:17.3114356Z  make[2] -C tools/patch-image download
+2026-05-03T06:04:17.3902266Z  make[2] -C tools/patchelf download
+2026-05-03T06:04:17.4188148Z  make[2] -C tools/pkgconf download
+2026-05-03T06:04:17.7179138Z  make[2] -C tools/quilt download
+2026-05-03T06:04:17.7674162Z  make[2] -C tools/squashfs4 download
+2026-05-03T06:04:18.0726246Z  make[2] -C tools/sstrip download
+2026-05-03T06:04:18.5605419Z  make[2] -C tools/util-linux download
+2026-05-03T06:04:18.8342920Z  make[2] -C tools/xz download
+2026-05-03T06:04:19.1525423Z  make[2] -C tools/zip download
+2026-05-03T06:04:20.0209182Z  make[2] -C tools/zlib download
+2026-05-03T06:04:20.3364469Z  make[2] -C tools/gmp download
+2026-05-03T06:04:20.7036366Z  make[2] -C tools/mpc download
+2026-05-03T06:04:20.9947425Z  make[2] -C tools/mpfr download
+2026-05-03T06:04:21.0328885Z  make[2] -C tools/dwarves download
+2026-05-03T06:04:21.0448795Z  make[2] -C tools/ccache download
+2026-05-03T06:04:21.3856474Z  make[2] -C tools/xxhash download
+2026-05-03T06:04:21.4258689Z  make[2] -C tools/libdeflate download
+2026-05-03T06:04:21.5089998Z  make[2] -C tools/patch download
+2026-05-03T06:04:21.7498864Z  make[2] -C tools/tar download
+2026-05-03T06:04:21.8370763Z  make[2] -C tools/zstd download
+2026-05-03T06:04:21.9242636Z  make[2] -C tools/flock download
+2026-05-03T06:04:21.9937120Z  make[2] -C tools/sed download
+2026-05-03T06:04:29.6087123Z  make[1] toolchain/download
+2026-05-03T06:04:31.8307311Z  make[2] -C toolchain/gdb download
+2026-05-03T06:04:31.8313094Z  make[2] -C toolchain/kernel-headers download
+2026-05-03T06:04:31.8322755Z  make[2] -C toolchain/binutils download
+2026-05-03T06:04:31.8331481Z  make[2] -C toolchain/gcc/initial download
+2026-05-03T06:04:32.4807933Z  make[2] -C toolchain/gcc/final download
+2026-05-03T06:04:32.5462570Z  make[2] -C toolchain/musl download
+2026-05-03T06:04:33.2467801Z  make[2] -C toolchain/fortify-headers download
+2026-05-03T06:04:52.2056676Z  make[1] package/download
+2026-05-03T06:04:54.5171409Z  make[2] -C package/base-files download
+2026-05-03T06:04:54.5175231Z  make[2] -C package/boot/uboot-tools download
+2026-05-03T06:04:54.5178118Z  make[2] -C package/dae download
+2026-05-03T06:04:54.5192617Z  make[2] -C package/emortal/autocore download
+2026-05-03T06:04:54.7258974Z  make[2] -C package/emortal/automount download
+2026-05-03T06:04:54.8011502Z  make[2] -C package/emortal/cpufreq download
+2026-05-03T06:04:54.9185927Z  make[2] -C package/emortal/default-settings download
+2026-05-03T06:04:54.9385277Z  make[2] -C feeds/luci/collections/luci download
+2026-05-03T06:04:54.9884317Z  make[2] -C feeds/luci/applications/luci-app-autoreboot download
+2026-05-03T06:04:55.1157490Z  make[2] -C feeds/luci/applications/luci-app-cpufreq download
+2026-05-03T06:04:55.2663540Z  make[2] -C feeds/luci/applications/luci-app-firewall download
+2026-05-03T06:04:55.3182342Z  make[2] -C feeds/luci/applications/luci-app-package-manager download
+2026-05-03T06:04:55.4709989Z  make[2] -C feeds/luci/applications/luci-app-sqm download
+2026-05-03T06:04:55.9638346Z  make[2] -C feeds/luci/applications/luci-app-ttyd download
+2026-05-03T06:04:56.0213114Z  make[2] -C feeds/luci/applications/luci-app-upnp download
+2026-05-03T06:04:56.1670132Z  make[2] -C feeds/luci/applications/luci-app-vlmcsd download
+2026-05-03T06:04:56.5128320Z  make[2] -C feeds/luci/applications/luci-app-zerotier download
+2026-05-03T06:04:56.6392667Z  make[2] -C feeds/luci/modules/luci-base download
+2026-05-03T06:04:56.7112840Z  make[2] -C feeds/luci/modules/luci-compat download
+2026-05-03T06:04:56.8458745Z  make[2] -C feeds/luci/libs/luci-lib-base download
+2026-05-03T06:04:57.0463060Z  make[2] -C feeds/luci/libs/luci-lib-ip download
+2026-05-03T06:04:57.1840693Z  make[2] -C feeds/luci/libs/luci-lib-ipkg download
+2026-05-03T06:04:57.4385896Z  make[2] -C feeds/luci/libs/luci-lib-jsonc download
+2026-05-03T06:04:57.4737818Z  make[2] -C feeds/luci/libs/luci-lib-nixio download
+2026-05-03T06:04:57.5036911Z  make[2] -C feeds/luci/libs/luci-lib-uqr download
+2026-05-03T06:04:57.8173064Z  make[2] -C feeds/luci/collections/luci-light download
+2026-05-03T06:04:57.8443120Z  make[2] -C feeds/luci/modules/luci-lua-runtime download
+2026-05-03T06:04:57.8853110Z  make[2] -C feeds/luci/modules/luci-mod-admin-full download
+2026-05-03T06:04:58.1451083Z  make[2] -C feeds/luci/modules/luci-mod-network download
+2026-05-03T06:04:58.2127481Z  make[2] -C feeds/luci/modules/luci-mod-status download
+2026-05-03T06:04:58.2307667Z  make[2] -C feeds/luci/modules/luci-mod-system download
+2026-05-03T06:04:58.4691702Z  make[2] -C feeds/luci/protocols/luci-proto-ipv6 download
+2026-05-03T06:04:58.5693328Z  make[2] -C feeds/luci/protocols/luci-proto-ppp download
+2026-05-03T06:04:58.6119671Z  make[2] -C feeds/luci/protocols/luci-proto-relay download
+2026-05-03T06:04:58.8257528Z  make[2] -C feeds/luci/protocols/luci-proto-wireguard download
+2026-05-03T06:04:58.9242800Z  make[2] -C feeds/luci/contrib/package/lucihttp download
+2026-05-03T06:04:58.9643486Z  make[2] -C feeds/luci/libs/rpcd-mod-luci download
+2026-05-03T06:04:59.1793011Z  make[2] -C feeds/luci/libs/rpcd-mod-rrdns download
+2026-05-03T06:04:59.1904647Z  make[2] -C feeds/luci/contrib/package/ucode-mod-html download
+2026-05-03T06:04:59.3663705Z  make[2] -C feeds/luci/contrib/package/ucode-mod-lua download
+2026-05-03T06:04:59.3743366Z  make[2] -C feeds/nss_packages/firmware/nss-eip-firmware download
+2026-05-03T06:04:59.5463400Z  make[2] -C feeds/nss_packages/firmware/nss-firmware download
+2026-05-03T06:04:59.5481217Z  make[2] -C feeds/nss_packages/nss-ifb download
+2026-05-03T06:04:59.7469924Z  make[2] -C feeds/nss_packages/qca-nss-clients download
+2026-05-03T06:05:00.0375929Z  make[2] -C feeds/nss_packages/qca-nss-crypto download
+2026-05-03T06:05:00.1337507Z  make[2] -C feeds/nss_packages/qca-nss-drv download
+2026-05-03T06:05:00.2627572Z  make[2] -C feeds/nss_packages/qca-nss-ecm download
+2026-05-03T06:05:07.5587951Z  make[2] -C feeds/packages/utils/bash download
+2026-05-03T06:05:08.0831230Z  make[2] -C feeds/packages/net/bind download
+2026-05-03T06:05:09.2462544Z  make[2] -C feeds/packages/net/bonding download
+2026-05-03T06:05:09.4321256Z  make[2] -C feeds/packages/admin/btop download
+2026-05-03T06:05:09.9834027Z  make[2] -C feeds/packages/net/cgi-io download
+2026-05-03T06:05:10.0008045Z  make[2] -C feeds/packages/net/chinadns-ng download
+2026-05-03T06:05:10.3676133Z  make[2] -C feeds/packages/utils/coremark download
+2026-05-03T06:05:10.4998404Z  make[2] -C feeds/packages/utils/coreutils download
+2026-05-03T06:05:10.7850446Z  make[2] -C feeds/packages/net/curl download
+2026-05-03T06:05:10.8057323Z  make[2] -C feeds/packages/net/dns2socks download
+2026-05-03T06:05:11.1435469Z  make[2] -C feeds/packages/net/etherwake download
+2026-05-03T06:05:11.1782473Z  make[2] -C feeds/packages/net/geoview download
+2026-05-03T06:05:11.2513964Z  make[2] -C feeds/packages/utils/gptfdisk download
+2026-05-03T06:05:11.4014889Z  make[2] -C feeds/packages/net/haproxy download
+2026-05-03T06:05:11.4610137Z  make[2] -C feeds/packages/utils/hwdata download
+2026-05-03T06:05:11.5760501Z  make[2] -C feeds/packages/net/iperf3 download
+2026-05-03T06:05:11.9474067Z  make[2] -C feeds/packages/net/ipt2socks download
+2026-05-03T06:05:12.1595166Z  make[2] -C feeds/packages/libs/libcap-ng download
+2026-05-03T06:05:12.1833908Z  make[2] -C feeds/packages/libs/libev download
+2026-05-03T06:05:12.2634522Z  make[2] -C feeds/packages/libs/libevdev download
+2026-05-03T06:05:12.7280259Z  make[2] -C feeds/packages/libs/libimobiledevice download
+2026-05-03T06:05:13.4053766Z  make[2] -C feeds/packages/libs/libimobiledevice-glue download
+2026-05-03T06:05:13.5886405Z  make[2] -C feeds/packages/libs/libnatpmp download
+2026-05-03T06:05:13.8197811Z  make[2] -C feeds/packages/libs/libplist download
+2026-05-03T06:05:14.0231857Z  make[2] -C feeds/packages/libs/libudev-zero download
+2026-05-03T06:05:14.1651156Z  make[2] -C feeds/packages/libs/liburcu download
+2026-05-03T06:05:14.2112472Z  make[2] -C feeds/packages/libs/libusbmuxd download
+2026-05-03T06:05:14.3178596Z  make[2] -C feeds/packages/libs/libuv download
+2026-05-03T06:05:14.6608917Z  make[2] -C feeds/packages/libs/libwebsockets download
+2026-05-03T06:05:14.7213175Z  make[2] -C feeds/packages/lang/lua/lua5.4 download
+2026-05-03T06:05:14.8182786Z  make[2] -C feeds/packages/net/microsocks download
+2026-05-03T06:05:14.9259054Z  make[2] -C feeds/packages/net/miniupnpc download
+2026-05-03T06:05:15.1575213Z  make[2] -C feeds/packages/net/miniupnpd download
+2026-05-03T06:05:15.3737681Z  make[2] -C feeds/packages/utils/mmc-utils download
+2026-05-03T06:05:15.5458717Z  make[2] -C feeds/packages/kernel/mtd-rw download
+2026-05-03T06:05:16.0380302Z  make[2] -C feeds/packages/libs/nghttp2 download
+2026-05-03T06:05:16.4294306Z  make[2] -C feeds/packages/net/openssh download
+2026-05-03T06:05:16.7059572Z  make[2] -C feeds/packages/net/shadowsocks-rust download
+2026-05-03T06:05:17.1090642Z  make[2] -C feeds/packages/net/simple-obfs download
+2026-05-03T06:05:17.6188179Z  make[2] -C feeds/packages/net/sing-box download
+2026-05-03T06:05:17.6989726Z  make[2] -C feeds/packages/net/sqm-scripts download
+2026-05-03T06:05:17.8741288Z  make[2] -C feeds/packages/net/tcping download
+2026-05-03T06:05:18.0372960Z  make[2] -C feeds/packages/utils/ttyd download
+2026-05-03T06:05:18.4113571Z  make[2] -C feeds/packages/utils/unzip download
+2026-05-03T06:05:18.5008895Z  make[2] -C feeds/packages/utils/usbmuxd download
+2026-05-03T06:05:19.1197181Z  make[2] -C feeds/packages/utils/usbutils download
+2026-05-03T06:05:19.5598486Z  make[2] -C feeds/packages/net/v2ray-plugin download
+2026-05-03T06:05:19.8844134Z  make[2] -C feeds/packages/net/vlmcsd download
+2026-05-03T06:05:19.9795126Z  make[2] -C feeds/packages/net/xray-core download
+2026-05-03T06:05:20.4424875Z  make[2] -C feeds/packages/utils/xz download
+2026-05-03T06:05:20.5930412Z  make[2] -C feeds/packages/net/zerotier download
+2026-05-03T06:05:20.8239416Z  make[2] -C feeds/packages/utils/zoneinfo download
+2026-05-03T06:05:21.2571060Z  make[2] -C package/firmware/linux-firmware download
+2026-05-03T06:05:21.6736568Z  make[2] -C package/firmware/wireless-regdb download
+2026-05-03T06:05:22.6345477Z  make[2] -C package/kernel/gpio-button-hotplug download
+2026-05-03T06:05:22.7769661Z  make[2] -C package/kernel/linux download
+2026-05-03T06:05:25.6327340Z  make[2] -C package/kernel/mac80211 download
+2026-05-03T06:05:26.4016433Z  make[2] -C package/kernel/nat46 download
+2026-05-03T06:05:26.6230288Z  make[2] -C package/kernel/qca-nss-dp download
+2026-05-03T06:05:28.6477502Z  make[2] -C package/kernel/qca-ssdk download
+2026-05-03T06:05:28.9074854Z  make[2] -C package/libs/elfutils download
+2026-05-03T06:05:29.0948195Z  make[2] -C package/libs/gmp download
+2026-05-03T06:05:29.3092674Z  make[2] -C package/libs/jansson download
+2026-05-03T06:05:29.6280094Z  make[2] -C package/libs/libbpf download
+2026-05-03T06:05:30.9185525Z  make[2] -C package/libs/libcap download
+2026-05-03T06:05:31.8876264Z  make[2] -C package/libs/libjson-c download
+2026-05-03T06:05:32.3115705Z  make[2] -C package/libs/libmnl download
+2026-05-03T06:05:33.3518702Z  make[2] -C package/libs/libnetfilter-conntrack download
+2026-05-03T06:05:33.5766627Z  make[2] -C package/libs/libnfnetlink download
+2026-05-03T06:05:34.3732214Z  make[2] -C package/libs/libnftnl download
+2026-05-03T06:05:34.4986795Z  make[2] -C package/libs/libnl-tiny download
+2026-05-03T06:05:35.8646365Z  make[2] -C package/libs/libpcap download
+2026-05-03T06:05:36.8061052Z  make[2] -C package/libs/libtool download
+2026-05-03T06:05:37.1885690Z  make[2] -C package/libs/libubox download
+2026-05-03T06:05:37.4344074Z  make[2] -C package/libs/libusb download
+2026-05-03T06:05:37.7344000Z  make[2] -C package/libs/libxml2 download
+2026-05-03T06:05:37.7611072Z  make[2] -C package/libs/ncurses download
+2026-05-03T06:05:38.3174977Z  make[2] -C package/libs/nettle download
+2026-05-03T06:05:38.7262241Z  make[2] -C package/libs/openssl download
+2026-05-03T06:05:39.4499915Z  make[2] -C package/libs/pcre2 download
+2026-05-03T06:05:39.8169824Z  make[2] -C package/libs/popt download
+2026-05-03T06:05:39.9094627Z  make[2] -C package/libs/readline download
+2026-05-03T06:05:40.4187418Z  make[2] -C package/libs/toolchain download
+2026-05-03T06:05:40.5553352Z  make[2] -C package/libs/uclient download
+2026-05-03T06:05:40.9078113Z  make[2] -C package/libs/udebug download
+2026-05-03T06:05:41.2143927Z  make[2] -C package/libs/ustream-ssl download
+2026-05-03T06:05:41.9251865Z  make[2] -C package/libs/zlib download
+2026-05-03T06:05:42.0715019Z  make[2] -C package/luci-app-dae download
+2026-05-03T06:05:42.3567566Z  make[2] -C package/luci-app-daed/daed download
+2026-05-03T06:05:49.6579808Z  make[2] -C package/luci-app-daed/luci-app-daed download
+2026-05-03T06:05:49.6730775Z  make[2] -C package/luci-app-ddns-go/ddns-go download
+2026-05-03T06:05:49.8185394Z  make[2] -C package/luci-app-ddns-go/luci-app-ddns-go download
+2026-05-03T06:05:49.9783233Z  make[2] -C package/luci-app-passwall download
+2026-05-03T06:05:50.0696753Z  make[2] -C package/luci-app-passwall2 download
+2026-05-03T06:05:50.2834501Z  make[2] -C package/luci-theme-argon/luci-theme-argon download
+2026-05-03T06:05:50.3970456Z  make[2] -C package/network/config/firewall4 download
+2026-05-03T06:05:50.4460521Z  make[2] -C package/network/config/netifd download
+2026-05-03T06:05:51.5712267Z  make[2] -C package/network/config/wifi-scripts download
+2026-05-03T06:05:51.7169020Z  make[2] -C package/network/ipv6/6rd download
+2026-05-03T06:05:51.8233020Z  make[2] -C package/network/ipv6/odhcp6c download
+2026-05-03T06:05:51.8827499Z  make[2] -C package/network/services/dnsmasq download
+2026-05-03T06:05:53.1243638Z  make[2] -C package/network/services/dropbear download
+2026-05-03T06:05:54.1835508Z  make[2] -C package/network/services/odhcpd download
+2026-05-03T06:05:55.9668707Z  make[2] -C package/network/services/ppp download
+2026-05-03T06:05:56.0028623Z  make[2] -C package/network/services/relayd download
+2026-05-03T06:05:56.4744096Z  make[2] -C package/network/services/shellsync download
+2026-05-03T06:05:56.6262565Z  make[2] -C package/network/services/uhttpd download
+2026-05-03T06:05:58.3827040Z  make[2] -C package/network/utils/ethtool download
+2026-05-03T06:05:58.6516729Z  make[2] -C package/network/utils/fullconenat-nft download
+2026-05-03T06:05:58.9402990Z  make[2] -C package/network/utils/iproute2 download
+2026-05-03T06:05:59.9448360Z  make[2] -C package/network/utils/iptables download
+2026-05-03T06:06:01.0999330Z  make[2] -C package/network/utils/iw download
+2026-05-03T06:06:08.9240208Z  make[2] -C package/network/utils/iproute2 download
+2026-05-03T06:06:09.0959096Z  make[2] -C package/network/utils/iwinfo download
+2026-05-03T06:06:09.1531569Z  make[2] -C package/network/utils/nftables download
+2026-05-03T06:06:10.4934653Z  make[2] -C package/network/utils/resolveip download
+2026-05-03T06:06:10.6248141Z  make[2] -C package/network/utils/tcpdump download
+2026-05-03T06:06:11.4886261Z  make[2] -C package/network/utils/wireguard-tools download
+2026-05-03T06:06:11.9349532Z  make[2] -C package/openwrt-gecoosac/gecoosac download
+2026-05-03T06:06:12.2422920Z  make[2] -C package/openwrt-gecoosac/luci-app-gecoosac download
+2026-05-03T06:06:12.3818021Z  make[2] -C package/packages/luci-app-wolplus download
+2026-05-03T06:06:12.3940384Z  make[2] -C package/system/apk download
+2026-05-03T06:06:12.5566256Z  make[2] -C package/system/ca-certificates download
+2026-05-03T06:06:13.3520218Z  make[2] -C package/system/fstools download
+2026-05-03T06:06:13.9230033Z  make[2] -C package/system/fwtool download
+2026-05-03T06:06:14.3616910Z  make[2] -C package/system/mtd download
+2026-05-03T06:06:14.5074711Z  make[2] -C package/system/openwrt-keyring download
+2026-05-03T06:06:14.7237511Z  make[2] -C package/system/procd download
+2026-05-03T06:06:16.1141784Z  make[2] -C package/system/rpcd download
+2026-05-03T06:06:16.2987303Z  make[2] -C package/system/ubox download
+2026-05-03T06:06:16.7945654Z  make[2] -C package/system/ubus download
+2026-05-03T06:06:17.9297591Z  make[2] -C package/system/uci download
+2026-05-03T06:06:18.5109321Z  make[2] -C package/system/urandom-seed download
+2026-05-03T06:06:18.6540123Z  make[2] -C package/system/urngd download
+2026-05-03T06:06:19.0494723Z  make[2] -C package/system/usign download
+2026-05-03T06:06:20.2575287Z  make[2] -C package/utils/busybox download
+2026-05-03T06:06:20.5957208Z  make[2] -C package/utils/e2fsprogs download
+2026-05-03T06:06:20.8178108Z  make[2] -C package/utils/f2fs-tools download
+2026-05-03T06:06:21.3872523Z  make[2] -C package/utils/jsonfilter download
+2026-05-03T06:06:21.4613556Z  make[2] -C package/utils/lua download
+2026-05-03T06:06:22.1825695Z  make[2] -C package/utils/f2fs-tools download
+2026-05-03T06:06:22.3361412Z  make[2] -C package/utils/f2fs-tools download
+2026-05-03T06:06:22.4826730Z  make[2] -C package/utils/f2fs-tools download
+2026-05-03T06:06:22.6272589Z  make[2] -C package/utils/mtd-utils download
+2026-05-03T06:06:22.6351282Z  make[2] -C package/utils/ucode download
+2026-05-03T06:06:22.7818158Z  make[2] -C package/utils/usbmode download
+2026-05-03T06:06:23.6865253Z  make[2] -C package/utils/util-linux download
+2026-05-03T06:06:23.8899136Z  make[2] -C package/v2ray-geodata download
+2026-05-03T06:06:26.5903239Z  make[1] target/download
+2026-05-03T06:06:28.8258586Z  make[2] -C target/linux download
