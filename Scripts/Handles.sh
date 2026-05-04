@@ -115,3 +115,26 @@ if [ -f "$MAC80211_PATCH" ]; then
 	rm -rf $MAC80211_PATCH
 	cd $PKG_PATH && echo "mac80211 broken patch has been removed!"
 fi
+
+#预先下载 OpenClash 核心，防止编译后界面提示“未安装内核”
+if [ -d *"openclash"* ]; then
+	echo " "
+	echo "Downloading OpenClash cores..."
+	CORE_DIR="$GITHUB_WORKSPACE/$WRT_DIR/files/etc/openclash/core"
+	mkdir -p $CORE_DIR
+
+	# 下载 Meta 内核
+	curl -sL -o $CORE_DIR/clash_meta.tar.gz "https://raw.githubusercontent.com/vernesong/OpenClash/core/master/meta/clash-linux-armv8.tar.gz"
+	tar -zxf $CORE_DIR/clash_meta.tar.gz -C $CORE_DIR/
+	mv $CORE_DIR/clash $CORE_DIR/clash_meta
+	rm -f $CORE_DIR/clash_meta.tar.gz
+	chmod +x $CORE_DIR/clash_meta
+
+	# 下载 Dev 内核
+	curl -sL -o $CORE_DIR/clash_dev.tar.gz "https://raw.githubusercontent.com/vernesong/OpenClash/core/master/dev/clash-linux-armv8.tar.gz"
+	tar -zxf $CORE_DIR/clash_dev.tar.gz -C $CORE_DIR/
+	rm -f $CORE_DIR/clash_dev.tar.gz
+	chmod +x $CORE_DIR/clash
+
+	cd $PKG_PATH && echo "OpenClash cores downloaded successfully!"
+fi
