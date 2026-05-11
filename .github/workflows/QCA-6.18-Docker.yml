@@ -48,6 +48,8 @@ jobs:
       WRT_BRANCH: ${{matrix.BRANCH}}
       #源码名称
       WRT_SOURCE: ${{matrix.SOURCE}}
+      #禁用插件
+      WRT_DISABLE: luci-app-daed luci-app-dae daed dae
       #仅输出配置文件
       WRT_TEST: ${{inputs.TEST}}
 
