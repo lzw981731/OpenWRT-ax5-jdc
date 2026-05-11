@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(wsl *)"
-    ]
-  },
-  "$version": 4
-}
