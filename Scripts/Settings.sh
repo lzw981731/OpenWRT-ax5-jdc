@@ -33,8 +33,12 @@ sed -i "s/192\.168\.[0-9]*\.[0-9]*/$WRT_IP/g" $CFG_FILE
 #修改默认主机名
 sed -i "s/hostname='.*'/hostname='$WRT_NAME'/g" $CFG_FILE
 #修改默认密码
-ROOT_HASH=$(openssl passwd -6 "password")
-sed -i "s|^root::0:0:|root:${ROOT_HASH}:0:0:|g" ./package/base-files/files/etc/shadow
+ROOT_HASH=$(openssl passwd -6 "$WRT_PW")
+SHADOW_FILE="./package/base-files/files/etc/shadow"
+if [ -f "$SHADOW_FILE" ]; then
+	sed -i "s|^root::0:0:|root:${ROOT_HASH}:0:0:|g" $SHADOW_FILE
+fi
+sed -i "s|root::0:0:|root:${ROOT_HASH}:0:0:|g" $CFG_FILE
 
 vlmcsd_patches="./feeds/packages/net/vlmcsd/patches/"
 mkdir -p $vlmcsd_patches && cp -f ../patches/001-fix_compile_with_ccache.patch $vlmcsd_patches
